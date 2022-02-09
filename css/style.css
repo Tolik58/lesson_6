@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0 auto;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+body {
+    display: block;
+    box-sizing: border-box;
+    max-width: 1150px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(67, 67, 77);
+}
+
+nav {
+    display: inline-block;
+}
+
+a {
+    margin-left: 780px;
+    font-size: 15px;
+    text-transform: uppercase;
+    outline: 1px dotted #f80505;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 35px;
+    line-height: 23px;
+}
+
+span {
+    display: block;
+    font-weight: 700;
+}
+
+li {
+    font-size: 20px;
+    line-height: 23px;
+    margin-left: 30px;
+}
+
+ul {
+    margin-bottom: 10px;
+}
+
+mark {
+    color:rgb(24, 92, 3)
+}
+
+.header {
+    border: 2px solid #133ae7;
+    border-radius: 5px 5px 0 0 ;
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+
+.header-logo {
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 10px;
+    padding: 5px 0 0 5px;
+    text-transform: capitalize;
+}
+
+.header-text {
+    font-size: 20px;
+    padding: 0 0 5px 5px;
+    display: inline-block;
+}
+
+.image {
+    border: 2px solid #133ae7;
+    margin-bottom: 1px;
+}
+
+.description {
+    border: 2px solid #133ae7;
+    padding: 10px;
+}
+
+.footer {
+    border: 2px solid #133ae7;
+    border-radius: 0 0 5px 5px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    min-height: 50px;
+}
+
+.footer-text {
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+
+
